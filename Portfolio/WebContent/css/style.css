@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* Setting fade transition and default settings */
+body {
+	color: #000;
+	background-color: #f4f4f4;
+	transition: background-color 1s ease;
+	overflow:hidden;
+}
+.mgb3 {margin-bottom:3px;}
+.mgb5 {margin-bottom:5px;}
+.mgb7 {margin-bottom:7px;}
+.mgb10 {margin-bottom:10px;}
+.mgb15 {margin-bottom:15px;}
+.mgb30 {margin-bottom:30px;}
+
+.lft {text-align: left;}
+.rgt {text-align: right;}
+.cnt {text-align: center;}
+
+.lbl_stack {font-size: 14px; color: gray;}
+.active{font-size: 1.2em; font-weight: 800;}
+.side_bar {top: 10%; left: 10px !important; position:fixed;text-align: left;}
+.list_none {list-style:none;}
+.pointer:hover{cursor: pointer;}
+
+/* bgArea styles */
+.bgArea {
+	/* min height incase content is higher than window height */
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: sans-serif;
+	/* outline: 10px solid hotpink; */
+	/* turn above on to see the edge of panels */
+}
+
+body {
+	text-align: center;
+	font-size: 130%;
+}
+
+h1, h2 {
+	font-size: 3em;
+}
+
+p {
+	max-width: 30em;
+	margin-bottom: 2em;
+}
+
+a {
+	color: #0080ff;
+}
